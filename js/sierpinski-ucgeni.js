@@ -6,9 +6,7 @@
            n--;
         }
            while(n==0);
-
-        
-    console.log(n +" .seviyede " +result+ "tane ucgen");
+            console.log(n +" .seviyede " +result+ "tane ucgen");
 }
 console.log(ucgen(3));
 
