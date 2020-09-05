@@ -5,6 +5,6 @@ function array(...arr){
         }
         let difference = newarray.filter(x => arr.indexOf(x) === -1 && x>0);
         console.log(difference);
-    }
+}
 
 console.log(array([1,2,0]));

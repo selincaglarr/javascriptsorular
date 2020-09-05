@@ -1,6 +1,6 @@
 let nn=[];
 function compare(arr){
- let n = Math.max(arr); //n-1 eleman sayisi
+ let n = Math.max(arr); //n eleman sayisi
  
   for(let i=1;i<=n;i++){
      nn.push(i)

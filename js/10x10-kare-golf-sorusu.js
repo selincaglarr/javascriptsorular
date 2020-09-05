@@ -10,7 +10,6 @@ function repeat(n){
 }
 repeat(10);
 
-//
 //kac kez isteniliyorsa o kadar yildiz yazmali 
 let    arrays=[]   
 function repeat(n,action){
