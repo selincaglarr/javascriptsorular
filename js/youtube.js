@@ -1,13 +1,12 @@
-let score=[100,90,80,70,65,60,50,30,0];
-let scoreletter=["AA","BA","BB","CB","CC","DD","FD","FF","FF"];
-function compare(scr){
-    for(let i=score.length-1 ; i>=0 ; i--){
-  
-    if( scr>=score[i] && scr<score[i-1]){
-            console.log(scoreletter[i-1]);
-        }
-  }
-     
+function array(arr){
+    for(let i=0;i<arr.length;i++){
+        let sum=0;
+            for(let k=0;k<2;k++){
+                sum=sum+Math.pow(arr[i][k],2);
+            } 
+            sumarray.push(sum);
+         } 
+    let minsum=Math.min(...sumarray);
+     console.log(minsum);
 }
- 
-console.log(compare(29));
+console.log(array([[1,9],[6,1],[3,1],[7,8],[0,9]]));
