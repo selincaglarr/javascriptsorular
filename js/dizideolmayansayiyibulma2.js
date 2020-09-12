@@ -1,17 +1,10 @@
-let full=[];
-function compare(arr){
-   let max= Math.max(arr); //n eleman sayisi
-    dongu(max) 
-    
-function dongu(n){
-   if(n==0)return;
-   full.push(`n`)
-   dongu(n-1)
-   
-} 
-
-let difference = full.filter(x=>arr.indexOf(x) === -1);
+let newarray=[]
+function array(arr){
+   let max=(Math.max(...arr))
+       for(let i=1;i<=max;i++){
+        newarray.push(i)
+       }
+ let difference = newarray.filter(x => arr.indexOf(x) ===-1);
  console.log(difference);
 }
- 
-compare([1,2,4,5,6]);
+array([1,3,0,7]);
