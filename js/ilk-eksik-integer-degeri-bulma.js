@@ -1,10 +1,11 @@
-function array(...arr){
-    let max = Math.max(...arr)
-        for(let i=1 ; i<=max+1;i++){
-            newarray=newarray.push(i);
-        }
-        let difference = newarray.filter(x => arr.indexOf(x) === -1 && x>0);
-        console.log(difference);
+let fullarray=[]
+function order(arr){
+   let currentarray= arr.sort((a,b)=> a-b);
+   let max=(Math.max(...arr))
+      for(let i=1;i<=max;i++){
+         fullarray.push(i)
+      }
+   let difference = fullarray.find(x => currentarray.indexOf(x) === -1);
+   console.log(difference);
 }
-
-console.log(array([1,2,0]));
+order([1,9,-2,6,3,2,7])
